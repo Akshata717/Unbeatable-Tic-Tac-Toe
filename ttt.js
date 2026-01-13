@@ -125,7 +125,7 @@ for (var i = 0; i < 3; i++) {
 }
 function setup() {
   
-  createCanvas(1200, 1200);
+  createCanvas(500, 500);
   background("#CFC1D1");
   strokeWeight(7);
   line(166, 0, 166, 500);
@@ -140,7 +140,7 @@ function setup() {
   
   
   playAgainButton = createButton("Play Again?");
-  playAgainButton.position(600, 1000);
+  playAgainButton.position(250, 430);
   playAgainButton.size(150, 80);
   playAgainButton.style('font-size', '24px');
   playAgainButton.mousePressed(resetGame);
