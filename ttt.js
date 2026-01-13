@@ -125,7 +125,7 @@ for (var i = 0; i < 3; i++) {
 }
 function setup() {
   
-  createCanvas(500, 500);
+  createCanvas(900, 900);
   background("#CFC1D1");
   strokeWeight(7);
   line(166, 0, 166, 500);
