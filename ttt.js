@@ -140,7 +140,7 @@ function setup() {
   
   
   playAgainButton = createButton("Play Again?");
-  playAgainButton.position(250, 430);
+  playAgainButton.position(175, 430);
   playAgainButton.size(150, 80);
   playAgainButton.style('font-size', '24px');
   playAgainButton.mousePressed(resetGame);
